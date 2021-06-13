@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#wrapper {
+  width: 800px;
+  height: 600px;
+  position: relative; }
+  #wrapper #left {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #wrapper #right {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #wrapper #dots {
+    color: rgba(255, 255, 255, 0.4);
+    z-index: 100;
+    position: absolute;
+    top: 90%;
+    margin-left: 25%;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around; }
+  #wrapper #imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    #wrapper #imgContainer .leftImg {
+      position: absolute;
+      width: 100%;
+      left: -800px;
+      z-index: -10; }
+    #wrapper #imgContainer .centerImg {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      z-index: -10; }
+    #wrapper #imgContainer .rightImg {
+      position: absolute;
+      width: 100%;
+      left: 800px;
+      z-index: -10; }
+
+/*# sourceMappingURL=main.css.map */

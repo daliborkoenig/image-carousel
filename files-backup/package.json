@@ -1,0 +1,32 @@
+{
+  "name": "image-carousel",
+  "version": "1.0.0",
+  "description": "Image carousel build in javascript, SASS and built with Parcel. Animations from anime.js, pictures from pexels.com.",
+  "main": "carousel.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daliborkoenig/image-carousel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daliborkoenig/image-carousel/issues"
+  },
+  "homepage": "https://github.com/daliborkoenig/image-carousel#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "animejs": "^3.2.1",
+    "bootstrap": "^5.0.1",
+    "sass": "^1.34.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "parcel-bundler": "^1.12.5"
+  }
+}
