@@ -9,6 +9,8 @@ Number of images is unlimited, it is important to put them in images folder and 
 When you press left or right, ther program first checks if it is the first(for left) or last(for right) image and applies a short animation that shows that there are no iamges that way.
 If there are images to the left or right, the program then loads the next image, rtund the movement animation and then removes the previous image. Only ever showing the images in the animation.
 
+![Screenshot](screenshot.png)
+
 Hope you enjoy it.
 
 Let me know how I could improve it further.
